@@ -49,3 +49,9 @@ h1{font-size:clamp(32px,5vw,56px);line-height:1.1;margin:12px 0}
 .card h3{margin-top:0}
 .footer{padding:36px 0;border-top:1px solid #eee}
 .small{font-size:12px;opacity:.7}
+@media (max-width:640px){
+  .nav{align-items:flex-start;gap:12px;padding:12px 16px}
+  .logo{white-space:nowrap;font-size:14px}
+  .nav nav{display:flex;flex-wrap:wrap;justify-content:flex-end;gap:6px 12px}
+  .nav a{margin-left:0;font-size:12px;white-space:nowrap}
+}
