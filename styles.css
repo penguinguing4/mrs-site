@@ -188,7 +188,6 @@ section.room{position:relative;padding:170px 0}
 .store-links span{color:var(--ink-soft)}
 
 .work-cheek .frame{text-decoration:none;color:var(--ink)}
-.work-cheek .app-icon{width:66%;max-width:195px}
 .work-cheek .frame:focus-visible{outline:2px solid var(--rose-deep);outline-offset:4px}
 .work-preview-label{position:absolute;bottom:20px;left:10px;right:10px;text-align:center;font-size:12px;text-decoration:underline;text-underline-offset:3px}
 .work-description{font-size:13px;line-height:1.8;color:var(--ink-soft)}
