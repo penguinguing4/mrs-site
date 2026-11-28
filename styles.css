@@ -187,8 +187,8 @@ section.room{position:relative;padding:170px 0}
 .store-links a:hover{border-color:var(--rose-deep)}
 .store-links span{color:var(--ink-soft)}
 
-.work-cheek .frame{text-decoration:none;color:var(--ink)}
-.work-cheek .frame:focus-visible{outline:2px solid var(--rose-deep);outline-offset:4px}
+.work-released a.frame{text-decoration:none;color:var(--ink)}
+.work-released a.frame:focus-visible{outline:2px solid var(--rose-deep);outline-offset:4px}
 .work-preview-label{position:absolute;bottom:20px;left:10px;right:10px;text-align:center;font-size:12px;text-decoration:underline;text-underline-offset:3px}
 .work-description{font-size:13px;line-height:1.8;color:var(--ink-soft)}
 .work-detail figure{margin:16px 0 0}
@@ -291,3 +291,11 @@ footer.site .ft-type{font-family:"Cormorant Garamond",serif;font-size:12px;lette
   .reveal{opacity:1;transform:none}
   .eyebrow,h1,.jp-mission,.lead,.scroll-cue{opacity:1}
 }
+
+
+.line-development-note{margin-top:10px;font-size:12px}
+
+.work-detail-macaron figure{max-width:390px}
+.work-detail-macaron figure img{width:100%;max-width:100%}
+
+.work-detail-macaron .development-status{display:inline-block;white-space:nowrap;font-size:.75em;letter-spacing:.08em}
